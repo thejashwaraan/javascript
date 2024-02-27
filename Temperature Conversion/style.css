@@ -1,0 +1,50 @@
+body{
+    font-family:sans-serif;
+    background-color: color-mix(in srgb, rgb(243, 242, 246) 80%, rgb(251, 254, 252) 100%);
+    
+}
+h1{
+    color:rgb(98, 25, 234)
+}
+form{
+    background-color:whitesmoke;
+    text-align:center;
+    max-width:40%;
+    margin:auto;
+    padding: 25px;
+    border-radius: 6%;
+    box-shadow:6px 6px 50px black;
+   
+
+}
+#textbox{
+    width:50%;
+    text-align: center;
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+label{
+    font-size: large;
+    font-weight: bolder ;
+}
+button{
+    margin-top: 15px;
+    background-color:rgb(23, 169, 237);
+    border:none;
+    cursor:grab;
+    font-size: medium;
+    color:aliceblue;
+    padding:1% 5%;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color: rgb(12, 131, 221);
+}
+#result{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}

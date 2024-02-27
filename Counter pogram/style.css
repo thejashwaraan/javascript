@@ -1,0 +1,27 @@
+#l1{
+    display:block;
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 10em;
+}
+#labelcontainer{
+    text-align: center;
+    background-color: rgb(232, 232, 232);
+    
+}
+.buttons{
+    padding:10px 25px;
+    font-size: medium;
+    font-style: italic;
+    font-family: fantasy;
+    color:aliceblue;
+    background-color: rgba(41, 12, 183, 0.585);
+    border-color: black;
+    border-radius: 6%;
+    cursor:grab;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color:rgb(146, 10, 209) ;
+}
+
